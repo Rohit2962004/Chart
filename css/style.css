@@ -1,6 +1,9 @@
 .first_row{
     text-align: center;
 }
+p{
+    font-size: 10px;
+}
 .round_box{
     text-align: center;
     border: 1px solid red;
@@ -29,11 +32,51 @@
     content: "";
     position: absolute;
     width: 20px; 
-    left: 16%;
+    left: 12%;
     height: 1px; 
     background-color: #bfbfbf; 
     z-index: -1;
-    margin-top:20px ;
+    margin-top:18px ;
+}
+.t_top_block:before{
+    content: "";
+    position: absolute;
+    width: 1px; 
+    height: 15px; 
+    background-color: #bfbfbf; 
+    z-index: -1;
+    right:37%;
+    margin-top:-20px;
+}
+.t_side_block:before{
+    content: "";
+    position: absolute;
+    width: 22px; 
+    right: 255px;
+    height: 1px; 
+    background-color: #bfbfbf; 
+    z-index: -1;
+    margin-top:18px;
+}
+.tt_top_block:before{
+    content: "";
+    position: absolute;
+    width: 1px; 
+    height: 25px; 
+    background-color: #bfbfbf; 
+    z-index: -1;
+    right:27%;
+    margin-top:-25px;
+}
+.tt_side_block:before {
+    content: "";
+    position: absolute;
+    width: 20px; 
+    right: 30%;
+    height: 1px; 
+    background-color: #bfbfbf; 
+    z-index: -1;
+    margin-top:18px ;
 }
 .top_block::before{
     content: "";
